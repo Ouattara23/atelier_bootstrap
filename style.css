@@ -1,0 +1,25 @@
+:root{
+    --bleu: #1627E0;
+    --bleu-clair: #414FEC;
+}
+/*menu*/
+.dropdown-menu{
+    background-color: var(--bleu-clair);
+}
+.dropdown-menu li a{
+    color: white;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color: var(--bleu);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu{
+    transition: 0.3s ease;
+}
