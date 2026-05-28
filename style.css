@@ -9,6 +9,10 @@
 .dropdown-menu li a{
     color: white;
 }
+nav{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
 .nav-item a{
     color: black;
 }
@@ -22,4 +26,8 @@
 
 .dropdown-menu{
     transition: 0.3s ease;
+}
+/*section heros*/
+h1 strong{
+    color: var(--bleu-clair);
 }
