@@ -2,6 +2,10 @@
     --bleu: #1627E0;
     --bleu-clair: #414FEC;
 }
+
+body{
+    background-color: #FCFCFC;
+}
 /*menu*/
 .dropdown-menu{
     background-color: var(--bleu-clair);
@@ -32,7 +36,7 @@ h1 strong{
     color: var(--bleu-clair);
 }
 .heros{
-    background-color: #d7daf1;
+    background-image: url(images/home-bg.jpg.jpeg);
 }
 .hero-section{
     position: relative;
@@ -96,8 +100,8 @@ h1 strong{
     background-color: rgb(248, 161, 111);
     color: rgb(252, 92, 0);
 }
-.card{
-    background-color: #949dff;
+.card1{
+    background-image: url(images/shape-1.png);
 }
 
 .course-section a{
@@ -111,6 +115,93 @@ h1 strong{
 
 /*section cours*/
 .section-cours{
-    background: #EEAECA;
-background: linear-gradient(nulldeg, rgba(238, 174, 202, 1) 35%, rgba(148, 187, 233, 1) 100%);
+    background-image: url(images/section-2.jpg.jpeg);
+}
+
+/*section forma*/
+.section-forma1 a{
+    background-color: #1627E0;
+    color: white;
+}
+.section-forma1 a:hover{
+    background-color: #ff3831;
+    color: white;
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h5{
+    color: #081158;
+}
+
+.badge-course{
+    position: absolute;
+    left: -15px;
+    top: 40px;
+    background: #4f46e5;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 8px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-weight: bold;
+}
+
+
+
+.teacher-img{
+    height:260px;
+    object-fit:cover;
+    padding:12px;
+}
+
+.social-box{
+    position:absolute;
+    top:60px;
+    left:12px;
+
+    background:#4f46e5;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:20px 12px;
+    gap:25px;
+}
+
+.social-box a{
+    color:white;
+    font-size:22px;
+}
+
+.card-body h3{
+    color:#081158;
+}
+
+.card-body span{
+    color:#081158;
+    /*font-size:18px;*/
+}
+
+/*about 3*/
+.about3 a{
+    background-color: #1627E0;
+    color: white;
+}
+.about3 a:hover{
+    background-color: #ff3831;
+    color: white;
+}
+
+/*about4*/
+.about4{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+}
+.about4 .image{
+    height: 35px;
+    width: 35px;
 }
