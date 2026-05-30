@@ -10,8 +10,8 @@
 </head>
 <body>
     <!--En tête-->
-    <header class="">
-        <nav class="navbar navbar-expand-lg p-3">
+    <header class="position-sticky">
+        <nav class="navbar navbar-expand-lg p-3 ">
             <div class="container">
                 <!--logo-->
                 <a class="navbar-brand" href="#">
@@ -356,10 +356,16 @@
         <section class="mt-5 section-forma">
             <div class="container">
                 <div class="d-flex justify-content-between section-forma1">
-                    <h2 class="">
-                        Join with more than 80,000+ <br>Courses & Learning creators.
+                    <div>
+                        <h2 class="">
+                        Join with more than <span class="text-primary">80,000+</span> <br>
+                        Courses & Learning creators.
                     </h2>
-                    <a href="#" class="btn ">View All Course <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                    
+                    <div>
+                        <a href="#" class="btn ">View All Course <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
                 </div>
             </div>
 
@@ -579,7 +585,7 @@
         <!--fin section forma-->
 
         <section class=" py-5 bg-white">
-            <div class="container border rounded p-5 bg-white">
+            <div class="container border rounded p-5 bg-white shadow">
                 <div class="row align-items-center">
                     <!-- Texte -->
                     <div class="col-lg-4 mb-4 mb-lg-0">
@@ -617,6 +623,15 @@
                     </div>
                 </div>
             </div>
+
+            <!--vidéo youtube-->
+                    <div class="d-flex justify-content-center align-content-center mt-5">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RXv_uIN6e-Y?si=jeKxcUbyQ27JQXLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
         </section>
 
         <section class="container py-5">
@@ -625,7 +640,7 @@
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8">
                         <div class="text-center">
-                            <h3>Meet our Instructors</h3>
+                            <h2>Meet our Instructors</h2>
                             <p>
                                 We offer a brand new approach to the most basic learning paradigms. Choose from a wide range of learning options and gain new skills! Our school is know.
                             </p>
@@ -781,8 +796,7 @@
         <!--about4-->
         <section class="mt-5 about4 p-5">
             <div class="container">
-                <div>
-                <h3>What Student’s Say To Do Their Online Course</h3>
+                <h3 class="">What Student’s Say To Do <br> Their Online Course</h3>
             </div>
 
             <div class="container mt-5">
@@ -794,6 +808,12 @@
                     <div class="col-lg-6">
                         <div class="shadow p-3 mb-5 bg-body-tertiary">
                             <img src="images/quote.png" alt="" class="image">
+                            <div>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad officia vel odio vitae, id necessitatibus consectetur dolorem? Consectetur distinctio nobis voluptate quo ipsam vitae quis sequi quod quia accusantium!
                                 Nostrum fugit consequatur iusto quos libero eius recusandae voluptatum sed modi. Praesentium dolore perspiciatis fuga exercitationem. Delectus repellendus nostrum harum suscipit quam ratione blanditiis quos. Facilis in vitae cumque corrupti.
@@ -805,11 +825,162 @@
             </div>
         </section>
 
+        <!--section-latest-->
+        <section class="mt-5 ">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8 text-center">
+                        <h2>Latest Blog & news</h2>
+                        <p>
+                            We offer a brand new approach to the most basic learning paradigms. Choose from a wide range of learning options and gain new skills! Our school is know.
+                        </p>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+
+                <!--card 1-->
+                <div class="row section-latest mt-3">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 shadow-sm position-relative h-100">
+                            <img src="images/1.jpg.jpeg" class="card-img-top" alt="course">
+                            <div class="card-body  p-3">
+                                <p>
+                                    May 10, 2024 | <a href="#" class="text-decoration-none text-primary">Education</a>
+                                </p>
+                                <h5 class="fw-bold mb-4">
+                                    Professional Mobile Painting and Sculpting
+                                </h5>
+                                <a href="#" class="btn ">Read More <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card 2-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 shadow-sm position-relative h-100">
+                            <img src="images/2.jpg" class="card-img-top" alt="course">
+                            <div class="card-body  p-3">
+                                <p>
+                                    May 16, 2024 | <a href="#" class="text-decoration-none text-primary">Education</a>
+                                </p>
+                                <h5 class="fw-bold mb-4">
+                                    Professional Ceramic Moulding for Beginner
+                                </h5>
+                                <a href="#" class="btn ">Read More <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card 3-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 shadow-sm position-relative h-100">
+                            <img src="images/3.jpg.jpeg" class="card-img-top" alt="course">
+                            <div class="card-body  p-3">
+                                <p>
+                                    May 18, 2024 | <a href="#" class="text-decoration-none text-primary">Programming</a>
+                                </p>
+                                <h5 class="fw-bold mb-4">
+                                    Education Is About Create Leaders For Tomorrow
+                                </h5>
+                                <a href="#" class="btn ">Read More <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <!--fin contenu-->
 
     <!--Pied de page-->
-    <footer></footer>
+    <footer class="mt-5 ">
+        <div class="container p-3">
+            <div class="row">
+                <!--début col-->
+                <div class="col-lg">
+                    <div>
+                        <a href="#">
+                            <img src="images/logo.png" alt="" class="mb-4">
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.
+                        </p>
+                    </div>
+                    <div class="d-flex gap-3 icon">
+                        <a href="" class="text-decoration-none"><i class="bi bi-twitter-x"></i></a>
+                        <a href="" class="text-decoration-none"><i class="bi bi-facebook"></i></a>
+                        <a href="" class="text-decoration-none"><i class="bi bi-instagram"></i></a>
+                        <a href="" class="text-decoration-none"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg">
+                    <div>
+                        <h4>About Eduleb</h4>
+                    </div>
+                    <div class="footer-about mt-4 d-flex flex-wrap gap-2">
+                        <a href="" class="">About us</a>
+                        <a href="" class="">Instructor Registration</a>
+                        <a href="" class="">Become A Teacher</a>
+                        <a href="" class="">All Instrustors</a>
+                        <a href="" class="">Asked Question</a>
+                        <br><a href="" class="">Contact us</a>
+                    </div>
+                </div>
+
+                <div class="col-lg">
+                    <div>
+                        <h4>Popular Courese</h4>
+                    </div>
+                    <div class=" mt-4 footer-popular d-flex flex-wrap gap-2">
+                        <a href="">Development</a>
+                        <br><a href="">Arts & design</a>
+                        <br><a href="">Visual Design</a>
+                        <br><a href="">Graphic Design</a>
+                        <br><a href="">Code Inspection</a>
+                        <a href="">Digital Marketing</a>
+                    </div>
+                </div>
+
+                <div class="col-lg">
+                    <div>
+                        <h4>Contact Info</h4>
+                    </div>
+                    <div class="mt-4 d-flex flex-wrap gap-1">
+                        <p class="d-flex gap-2">
+                            <i class="bi bi-map text-primary"></i>
+                            2570 Quadra Street Victoria Road, New York, Canada
+                        </p>
+                        <p class="d-flex gap-2"><i class="bi bi-phone text-primary"></i>+88 457 845 695</p>
+                        <a href="" class="text-decoration-none text-primary d-flex gap-2 "><i class="bi bi-phone text-primary"></i>Contact Whatsapp</a>
+                        <p class="d-flex gap-2"><i class="bi bi-envelope text-primary"></i>example@yourmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg">
+                    <div>
+                        <h4>Download App</h4>
+                        <p class="mt-4">Download our app from app store and goole play store.</p>
+                    </div>
+                    <div class="mt-4">
+                        <a href="" >
+                            <img src="images/google-play.jpg.jpeg" alt="" class="mb-3">
+                        </a>
+                        <a href="">
+                            <img src="images/app-store.jpg.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!--fin col-->
+            </div>
+        </div>
+
+        <div class="text-center mt-5 footer-text p-2">
+            <p>
+                © 2024. All Rights Reserved by <a href="" class="text-decoration-none fw-semibold">Bestwpware</a> • Distributed by <a href="" class="text-decoration-none fw-semibold">ThemeWagon</a>
+            </p>
+        </div>
+    </footer>
     <!--fin pied de page-->
 
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>

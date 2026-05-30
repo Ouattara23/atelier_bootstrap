@@ -26,6 +26,8 @@ nav{
 .dropdown:hover .dropdown-menu{
     display: block;
     margin-top: 0;
+}h2{
+    color: #081158
 }
 
 .dropdown-menu{
@@ -41,6 +43,9 @@ h1 strong{
 .hero-section{
     position: relative;
     /*padding-bottom: 10px;*/
+}
+.hero-section h1{
+    color: #081158
 }
 
 .info{
@@ -162,12 +167,9 @@ h1 strong{
     position:absolute;
     top:60px;
     left:12px;
-
     background:#4f46e5;
-
     display:flex;
     flex-direction:column;
-
     padding:20px 12px;
     gap:25px;
 }
@@ -180,12 +182,25 @@ h1 strong{
 .card-body h3{
     color:#081158;
 }
-
+.section-cours h2{
+    color: #081158
+}
+.course-section h2{
+    color: #081158
+}
 .card-body span{
     color:#081158;
     /*font-size:18px;*/
 }
-
+.card1 h2{
+    color: #081158;
+}
+.section-forma1 h2{
+    color: #081158
+}
+.section-forma1 .span{
+    color: #0e2aff;
+}
 /*about 3*/
 .about3 a{
     background-color: #1627E0;
@@ -201,7 +216,67 @@ h1 strong{
     background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
 }
+.about3 h2{
+    color: #1B0A3D;
+}
 .about4 .image{
     height: 35px;
     width: 35px;
+}
+.about4 h3{
+    color: #1B0A3D;
+}
+
+/*section latest*/
+.section-latest .btn{
+    background-color: #1627E0;
+    color: white;
+}
+.section-latest .btn:hover{
+    background-color: #ff3831;
+    color: white;
+}
+
+/*footer*/
+footer{
+    background-color: #F5F5F5;
+   /* padding: 30px;*/
+}
+.footer-text{
+    background-color: #DEDEDE;
+}
+.footer-about a{
+    text-decoration: none;
+    color: #0b1b60;
+}
+.footer-about a:hover{
+    color: var(--bleu-clair);
+}
+.footer-popular a{
+    text-decoration: none;
+    color: #0b1b60;
+}
+.footer-popular a:hover{
+    color: var(--bleu-clair);
+}
+.footer-text a{
+    color: rgb(44, 43, 43);
+}
+.footer-text a:hover{
+    color: white;
+}
+footer .icon i{
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+footer h4{
+    color: #1B0A3D;
 }
