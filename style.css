@@ -26,7 +26,17 @@ nav{
 .dropdown:hover .dropdown-menu{
     display: block;
     margin-top: 0;
-}h2{
+}
+/*header*/
+header .btn{
+    background-color: #1627E0;
+    color: white;
+}
+header .btn:hover{
+    background-color: #ff3831;
+    color: white;
+}
+h2{
     color: #081158
 }
 
